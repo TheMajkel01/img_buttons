@@ -2,27 +2,43 @@
 package com.example.egzaminee04
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
+import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
-import android.view.Menu
-import android.view.MenuItem
-import com.example.egzaminee04.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var appBarConfiguration: AppBarConfiguration
-    private lateinit var binding: ActivityMainBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        /*
+        var Licz:Int =0;
+        lateinit var Polub: Button
+        lateinit var Usun: Button
+        lateinit var Zapisz: Button
+        lateinit var PolubText: TextView
+
+        Polub = findViewById(R.id.buttonPolub)
+        Usun = findViewById(R.id.buttonUsun)
+        Zapisz = findViewById(R.id.buttonZapisz)
+
+        PolubText = findViewById(R.id.textViewPolubienia)
 
 
         title ="mobile";
+        Polub.setOnClickListener {
+            Licz++;
+            PolubText.setText(Licz.toString()+"polubień")
+        }
+        Usun.setOnClickListener {
+            if(Licz>=0){
+                Licz--;
+                PolubText.setText(Licz.toString()+"polubień")
+            }
 
+        }
+*/
         }
     }
 
